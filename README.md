@@ -9,16 +9,20 @@ Company Name|Product Name|Size in inches|State|Pin Code|Price
 1. Write a Map Reduce program to modify Task 2 (refer session 4, assignment 2) to use a custom partitioner with 4 reducers.
    Make sure that all records whose company name starts with A-F (upper or lower case) should go to 1st reducer,
    those starting with G-L to 2nd reducer, those starting with M-R to 3rd reducer and others to 4th reducer.
+   Folder: Assignment51
    
 2. Modify Task 2 (refer session 4, assignment 2) to take advantage of Combiner.
+   Folder: Assignment52
 
 3. Modify Task 3 (refer session 4, assignment 2) to take advantage of Combiner.  
-
+   Folder: Assignment53
+   
 4. Write a Map Reduce program to view the total sales for each product for every Company corresponding to each size.
    Make sure that all records for a single company goes to a single reducer and inside every reducer,
    keys must be sorted in descending order of the size. 
    You may write a custom WritableComparable for this purpose.
-
+   Folder: Assignment54
+   
 -----------------------------------------------------------------------------------------------------------------------------------
 Titanic Dataset contains:
 Column 1 : PassengerId 
@@ -36,5 +40,8 @@ Column 12 : Embarked
 
 Problem Statement 1: 
 Find the average age of males and females who died in the Titanic tragedy.   
+   Folder: Assignment55
+   
 Problem Statement 2: 
 Find the number of people died or survived in each class with their genders and ages.
+   Folder: Assignment56
